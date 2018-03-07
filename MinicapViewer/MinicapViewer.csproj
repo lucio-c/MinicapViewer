@@ -73,44 +73,112 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Lib\minicap\bin\arm64-v8a\minicap" />
-    <None Include="Lib\minicap\bin\arm64-v8a\minicap-nopie" />
-    <None Include="Lib\minicap\bin\armeabi-v7a\minicap" />
-    <None Include="Lib\minicap\bin\armeabi-v7a\minicap-nopie" />
+    <None Include="Lib\minicap\bin\arm64-v8a\minicap">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\bin\arm64-v8a\minicap-nopie">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\bin\armeabi-v7a\minicap">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\bin\armeabi-v7a\minicap-nopie">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Lib\minicap\bin\x86\minicap" />
     <None Include="Lib\minicap\bin\x86\minicap-nopie" />
     <None Include="Lib\minicap\bin\x86_64\minicap" />
     <None Include="Lib\minicap\bin\x86_64\minicap-nopie" />
-    <None Include="Lib\minicap\shared\android-10\armeabi-v7a\minicap.so" />
-    <None Include="Lib\minicap\shared\android-14\armeabi-v7a\minicap.so" />
-    <None Include="Lib\minicap\shared\android-14\x86\minicap.so" />
-    <None Include="Lib\minicap\shared\android-15\armeabi-v7a\minicap.so" />
-    <None Include="Lib\minicap\shared\android-15\x86\minicap.so" />
-    <None Include="Lib\minicap\shared\android-16\armeabi-v7a\minicap.so" />
-    <None Include="Lib\minicap\shared\android-16\x86\minicap.so" />
-    <None Include="Lib\minicap\shared\android-17\armeabi-v7a\minicap.so" />
-    <None Include="Lib\minicap\shared\android-17\x86\minicap.so" />
-    <None Include="Lib\minicap\shared\android-18\armeabi-v7a\minicap.so" />
-    <None Include="Lib\minicap\shared\android-18\x86\minicap.so" />
-    <None Include="Lib\minicap\shared\android-19\armeabi-v7a\minicap.so" />
-    <None Include="Lib\minicap\shared\android-19\x86\minicap.so" />
-    <None Include="Lib\minicap\shared\android-21\arm64-v8a\minicap.so" />
-    <None Include="Lib\minicap\shared\android-21\armeabi-v7a\minicap.so" />
-    <None Include="Lib\minicap\shared\android-21\x86\minicap.so" />
-    <None Include="Lib\minicap\shared\android-21\x86_64\minicap.so" />
-    <None Include="Lib\minicap\shared\android-22\arm64-v8a\minicap.so" />
-    <None Include="Lib\minicap\shared\android-22\armeabi-v7a\minicap.so" />
-    <None Include="Lib\minicap\shared\android-22\x86\minicap.so" />
-    <None Include="Lib\minicap\shared\android-22\x86_64\minicap.so" />
-    <None Include="Lib\minicap\shared\android-23\arm64-v8a\minicap.so" />
-    <None Include="Lib\minicap\shared\android-23\armeabi-v7a\minicap.so" />
-    <None Include="Lib\minicap\shared\android-23\x86\minicap.so" />
-    <None Include="Lib\minicap\shared\android-23\x86_64\minicap.so" />
-    <None Include="Lib\minicap\shared\android-9\armeabi-v7a\minicap.so" />
-    <None Include="Lib\minicap\shared\android-M\arm64-v8a\minicap.so" />
-    <None Include="Lib\minicap\shared\android-M\armeabi-v7a\minicap.so" />
-    <None Include="Lib\minicap\shared\android-M\x86\minicap.so" />
-    <None Include="Lib\minicap\shared\android-M\x86_64\minicap.so" />
+    <None Include="Lib\minicap\shared\android-10\armeabi-v7a\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-14\armeabi-v7a\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-14\x86\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-15\armeabi-v7a\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-15\x86\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-16\armeabi-v7a\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-16\x86\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-17\armeabi-v7a\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-17\x86\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-18\armeabi-v7a\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-18\x86\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-19\armeabi-v7a\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-19\x86\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-21\arm64-v8a\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-21\armeabi-v7a\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-21\x86\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-21\x86_64\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-22\arm64-v8a\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-22\armeabi-v7a\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-22\x86\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-22\x86_64\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-23\arm64-v8a\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-23\armeabi-v7a\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-23\x86\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-23\x86_64\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-9\armeabi-v7a\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-M\arm64-v8a\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-M\armeabi-v7a\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-M\x86\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\minicap\shared\android-M\x86_64\minicap.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Lib\minitouch\arm64-v8a\minitouch" />
     <None Include="Lib\minitouch\arm64-v8a\minitouch-nopie" />
     <None Include="Lib\minitouch\armeabi-v7a\minitouch" />
