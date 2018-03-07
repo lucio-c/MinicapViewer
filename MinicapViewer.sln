@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinicapViewer", "MinicapViewer\MinicapViewer.csproj", "{A9D2B5D5-9B99-4B11-8951-AA80DB770B4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minicap", "Minicap\Minicap.csproj", "{83E432F2-3E17-40D9-BE90-01D0FA71A129}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Device", "Device\Device.csproj", "{D47466C1-A107-48C4-BB6F-F0295300A763}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniTouch", "MiniTouch\MiniTouch.csproj", "{37EA6AA6-A62C-4FAF-9EEE-465ACE2B7E37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9D2B5D5-9B99-4B11-8951-AA80DB770B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9D2B5D5-9B99-4B11-8951-AA80DB770B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9D2B5D5-9B99-4B11-8951-AA80DB770B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9D2B5D5-9B99-4B11-8951-AA80DB770B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E432F2-3E17-40D9-BE90-01D0FA71A129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E432F2-3E17-40D9-BE90-01D0FA71A129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E432F2-3E17-40D9-BE90-01D0FA71A129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E432F2-3E17-40D9-BE90-01D0FA71A129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D47466C1-A107-48C4-BB6F-F0295300A763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D47466C1-A107-48C4-BB6F-F0295300A763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D47466C1-A107-48C4-BB6F-F0295300A763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D47466C1-A107-48C4-BB6F-F0295300A763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37EA6AA6-A62C-4FAF-9EEE-465ACE2B7E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37EA6AA6-A62C-4FAF-9EEE-465ACE2B7E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37EA6AA6-A62C-4FAF-9EEE-465ACE2B7E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37EA6AA6-A62C-4FAF-9EEE-465ACE2B7E37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
